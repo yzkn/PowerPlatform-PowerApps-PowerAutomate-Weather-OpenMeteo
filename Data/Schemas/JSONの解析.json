@@ -1,0 +1,460 @@
+{
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "generationtime_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "utc_offset_seconds": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "timezone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timezone_abbreviation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "elevation": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "hourly_units": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "temperature_2m": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "apparent_temperature": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precipitation_probability": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precipitation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rain": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "weathercode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pressure_msl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "surface_pressure": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cloudcover": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "visibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windspeed_10m": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "winddirection_10m": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windgusts_10m": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_day": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "hourly": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "time": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "temperature_2m": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "apparent_temperature": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "precipitation_probability": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "precipitation": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "rain": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "weathercode": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "pressure_msl": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "surface_pressure": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "cloudcover": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "visibility": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "windspeed_10m": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "winddirection_10m": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "windgusts_10m": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "is_day": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "daily_units": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "weathercode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "temperature_2m_max": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "temperature_2m_min": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sunrise": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sunset": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precipitation_hours": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windspeed_10m_max": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windgusts_10m_max": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "winddirection_10m_dominant": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "daily": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "time": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "weathercode": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "temperature_2m_max": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "temperature_2m_min": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "sunrise": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "sunset": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "precipitation_hours": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "windspeed_10m_max": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "windgusts_10m_max": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "winddirection_10m_dominant": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
